@@ -1,0 +1,27 @@
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+/home/aniemcz/cavsResnetUNet/UNet_ResNetEncoder_SmallCav/models/zfp/1E-7/model_epoch_120_aug.pth
+Traceback (most recent call last):
+  File "/home/aniemcz/cavsResnetUNet/UNet_ResNetEncoder_SmallCav/val.py", line 64, in <module>
+    model.load_state_dict(torch.load(model_path))
+                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aniemcz/.conda/envs/universal/lib/python3.12/site-packages/torch/serialization.py", line 1026, in load
+    return _load(opened_zipfile,
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aniemcz/.conda/envs/universal/lib/python3.12/site-packages/torch/serialization.py", line 1438, in _load
+    result = unpickler.load()
+             ^^^^^^^^^^^^^^^^
+  File "/home/aniemcz/.conda/envs/universal/lib/python3.12/site-packages/torch/serialization.py", line 1408, in persistent_load
+    typed_storage = load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aniemcz/.conda/envs/universal/lib/python3.12/site-packages/torch/serialization.py", line 1382, in load_tensor
+    wrap_storage=restore_location(storage, location),
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aniemcz/.conda/envs/universal/lib/python3.12/site-packages/torch/serialization.py", line 391, in default_restore_location
+    result = fn(storage, location)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aniemcz/.conda/envs/universal/lib/python3.12/site-packages/torch/serialization.py", line 266, in _cuda_deserialize
+    device = validate_cuda_device(location)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aniemcz/.conda/envs/universal/lib/python3.12/site-packages/torch/serialization.py", line 250, in validate_cuda_device
+    raise RuntimeError('Attempting to deserialize object on a CUDA '
+RuntimeError: Attempting to deserialize object on a CUDA device but torch.cuda.is_available() is False. If you are running on a CPU-only machine, please use torch.load with map_location=torch.device('cpu') to map your storages to the CPU.

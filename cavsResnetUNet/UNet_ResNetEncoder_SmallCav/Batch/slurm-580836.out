@@ -1,0 +1,16 @@
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+/home/aniemcz/cavsResnetUNet/UNet_ResNetEncoder_SmallCav/models/Q0/model_epoch_120_aug.pth
+Traceback (most recent call last):
+  File "/home/aniemcz/cavsResnetUNet/UNet_ResNetEncoder_SmallCav/val_og_jpeg.py", line 66, in <module>
+    model.load_state_dict(torch.load(model_path))
+                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aniemcz/.conda/envs/universal/lib/python3.12/site-packages/torch/serialization.py", line 998, in load
+    with _open_file_like(f, 'rb') as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aniemcz/.conda/envs/universal/lib/python3.12/site-packages/torch/serialization.py", line 445, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aniemcz/.conda/envs/universal/lib/python3.12/site-packages/torch/serialization.py", line 426, in __init__
+    super().__init__(open(name, mode))
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aniemcz/cavsResnetUNet/UNet_ResNetEncoder_SmallCav/models/Q0/model_epoch_120_aug.pth'

@@ -1,0 +1,2 @@
+,filename,compressor,cBW,dBW,CR,normalize_time,diff_time,comp_time,encoding_time,de_comp_time,total_time,thread,uncompressed_size_bytes,compressed_size_bytes,decompressed_size_bytes,compression_level
+0,imgs/*.png,zstd,67.51787145783028,2701.3019568499267,4.077776441654976,0.18491053581237793,1.8697035940069901e-06,112.28837534000999,112.47328975326137,2.811221122741699,115.28451303431862,1,7593957120,1862278923,7593957120,9

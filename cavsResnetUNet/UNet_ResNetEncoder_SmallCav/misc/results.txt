@@ -1,0 +1,3 @@
+Results tracking:
+sz3 1E-7 peaks at ~91% miou without data aug
+sz3 1E-7 peaks at 91.2 miou without data aug
