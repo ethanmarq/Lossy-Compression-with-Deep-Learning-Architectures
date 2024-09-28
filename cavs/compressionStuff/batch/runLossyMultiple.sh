@@ -11,10 +11,10 @@
 cd
 source ./spack/share/spack/setup-env.sh
 
-spack env activate env2
+spack env activate your_spack_env_here
 
-cd /home/aniemcz/cavs/compressionStuff
+cd path_to_python_file_here
 
-source testPyEnv/bin/activate
+source python_env_name_here/bin/activate
 
 python multiple_imgs_lossy_compress.py $1

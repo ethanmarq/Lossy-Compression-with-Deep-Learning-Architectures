@@ -9,8 +9,8 @@
 #SBATCH --constraint interconnect_hdr
 
 
-cd /home/aniemcz/cavs/compressionStuff
+cd path_here_to_jpeg_metrics.py
 
-source activate universal
+source activate your_conda_environment
 
 python jpeg_metrics.py

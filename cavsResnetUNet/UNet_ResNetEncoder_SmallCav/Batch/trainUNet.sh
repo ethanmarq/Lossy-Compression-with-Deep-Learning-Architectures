@@ -8,8 +8,8 @@
 #SBATCH --mem 16gb
 #SBATCH --time 12:00:00
 
-source activate universal
+source activate conda_env_name_here
 
-cd /home/aniemcz/cavsResnetUNet/UNet_ResNetEncoder_SmallCav/
+cd path_name_here
 
 python train.py "$1" "$2"

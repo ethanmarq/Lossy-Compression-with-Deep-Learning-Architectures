@@ -8,8 +8,8 @@
 #SBATCH --mem 128gb
 #SBATCH --time 4:00:00
 
-source activate universal
+source activate conda_env_name_here
 
-cd /home/aniemcz/cavsResnetUNet/UNet_ResNetEncoder_SmallCav/
+cd path_name_here
 
 python val_jpeg.py

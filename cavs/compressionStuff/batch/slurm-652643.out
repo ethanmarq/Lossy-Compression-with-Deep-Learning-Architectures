@@ -1,4 +1,0 @@
-  File "/home/aniemcz/cavs/compressionStuff/multiple_imgs_lossy_compress.py", line 178
-    comp_config_time
-    ^^^^^^^^^^^^^^^^
-SyntaxError: invalid syntax. Perhaps you forgot a comma?

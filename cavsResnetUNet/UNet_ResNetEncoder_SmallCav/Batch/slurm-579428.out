@@ -1,85 +1,0 @@
-0it [00:00, ?it/s]1it [17:37, 1057.28s/it]2it [33:54, 1010.18s/it]3it [50:01, 990.42s/it] 4it [1:06:34, 991.45s/it]5it [1:23:11, 993.42s/it]6it [1:39:26, 987.38s/it]7it [1:56:01, 989.60s/it]7it [1:56:01, 994.45s/it]
-/home/aniemcz/cavsResnetUNet/UNet_ResNetEncoder_SmallCav/models/zfp/1E-7/model_epoch_120_aug.pth
-Matched 544 image-mask pairs.
-hi friend
-Unique values in targets: [0 1 2 3]
-Unique values in predictions: [0 1 2 3]
-iou_per_class
-0.9769480572622571
-0.9704535158983507
-0.8961170245130988
-0.917036731399849
-[0.97694806 0.97045352 0.89611702 0.91703673]
-Mean IoU: 0.9401388322683889
-/home/aniemcz/cavsResnetUNet/UNet_ResNetEncoder_SmallCav/models/zfp/1E-6/model_epoch_120_aug.pth
-Matched 544 image-mask pairs.
-hi friend
-Unique values in targets: [0 1 2 3]
-Unique values in predictions: [0 1 2 3]
-iou_per_class
-0.9740680595514946
-0.9729958499770992
-0.8976286497358528
-0.9156938393873363
-[0.97406806 0.97299585 0.89762865 0.91569384]
-Mean IoU: 0.9400965996629457
-/home/aniemcz/cavsResnetUNet/UNet_ResNetEncoder_SmallCav/models/zfp/1E-5/model_epoch_120_aug.pth
-Matched 544 image-mask pairs.
-hi friend
-Unique values in targets: [0 1 2 3]
-Unique values in predictions: [0 1 2 3]
-iou_per_class
-0.978580441519939
-0.9745657490172072
-0.9033301542532388
-0.9189036262740983
-[0.97858044 0.97456575 0.90333015 0.91890363]
-Mean IoU: 0.9438449927661208
-/home/aniemcz/cavsResnetUNet/UNet_ResNetEncoder_SmallCav/models/zfp/1E-4/model_epoch_120_aug.pth
-Matched 544 image-mask pairs.
-hi friend
-Unique values in targets: [0 1 2 3]
-Unique values in predictions: [0 1 2 3]
-iou_per_class
-0.9747010365955062
-0.9635296154524926
-0.885147280497575
-0.9132094648338004
-[0.97470104 0.96352962 0.88514728 0.91320946]
-Mean IoU: 0.9341468493448436
-/home/aniemcz/cavsResnetUNet/UNet_ResNetEncoder_SmallCav/models/zfp/1E-3/model_epoch_120_aug.pth
-Matched 544 image-mask pairs.
-hi friend
-Unique values in targets: [0 1 2 3]
-Unique values in predictions: [0 1 2 3]
-iou_per_class
-0.9739273382532067
-0.9659658383522334
-0.8890704155254116
-0.9074066033014606
-[0.97392734 0.96596584 0.88907042 0.9074066 ]
-Mean IoU: 0.9340925488580781
-/home/aniemcz/cavsResnetUNet/UNet_ResNetEncoder_SmallCav/models/zfp/1E-2/model_epoch_120_aug.pth
-Matched 544 image-mask pairs.
-hi friend
-Unique values in targets: [0 1 2 3]
-Unique values in predictions: [0 1 2 3]
-iou_per_class
-0.9760994277335756
-0.9702930441419729
-0.8895154288847249
-0.9052345472469729
-[0.97609943 0.97029304 0.88951543 0.90523455]
-Mean IoU: 0.9352856120018116
-/home/aniemcz/cavsResnetUNet/UNet_ResNetEncoder_SmallCav/models/zfp/1E-1/model_epoch_120_aug.pth
-Matched 544 image-mask pairs.
-hi friend
-Unique values in targets: [0 1 2 3]
-Unique values in predictions: [0 1 2 3]
-iou_per_class
-0.97549439582424
-0.9670670503439366
-0.8886484180999406
-0.9156789538422107
-[0.9754944  0.96706705 0.88864842 0.91567895]
-Mean IoU: 0.9367222045275819
