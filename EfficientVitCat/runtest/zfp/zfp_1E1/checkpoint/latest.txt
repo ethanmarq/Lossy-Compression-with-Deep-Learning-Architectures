@@ -1,0 +1,1 @@
+/home/marque6/MLBD/LossyUGVPaper/EfficientVitCat/runtest/zfp/zfp_1E1/checkpoint/model_best_400.pt

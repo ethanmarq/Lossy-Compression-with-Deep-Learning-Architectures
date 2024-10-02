@@ -1,0 +1,12 @@
+Model,Compressor,error_bound,epochs,miou,run
+EfficientVit,jpeg,Q0,420,0.9426000000000001,1
+EfficientVit,jpeg,Q10,420,0.9506,2
+EfficientVit,jpeg,Q20,420,0.9518000000000001,3
+EfficientVit,jpeg,Q30,420,0.9533,4
+EfficientVit,jpeg,Q40,420,0.9536,5
+EfficientVit,jpeg,Q50,420,0.9543,6
+EfficientVit,jpeg,Q60,420,0.9519,7
+EfficientVit,jpeg,Q70,420,0.9545,8
+EfficientVit,jpeg,Q80,420,0.9528,9
+EfficientVit,jpeg,Q90,420,0.9529000000000001,10
+EfficientVit,jpeg,Q100,420,0.9526,11

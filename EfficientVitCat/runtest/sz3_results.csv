@@ -1,0 +1,8 @@
+Model,Compressor,error_bound,epochs,miou,run
+EfficientVit,sz3,1E1,420,0.9408,1
+EfficientVit,sz3,1E2,420,0.9512,2
+EfficientVit,sz3,1E3,420,0.951,3
+EfficientVit,sz3,1E4,420,0.9521999999999999,4
+EfficientVit,sz3,1E5,420,0.9538,5
+EfficientVit,sz3,1E6,420,0.9515,6
+EfficientVit,sz3,1E7,420,0.9514,7
